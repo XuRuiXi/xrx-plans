@@ -1,0 +1,14 @@
+@font-face {
+  font-family: YouSheBiaoTiHei;
+  src: url('./assets/fonts/YouSheBiaoTiHei.ttf');
+}
+
+html[data-theme='dark'] {
+  background-color: #000;
+  color: #fff;
+}
+
+html[data-theme='light'] {
+  background-color: #fff;
+  color: #000;
+}
