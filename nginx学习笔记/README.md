@@ -346,3 +346,40 @@ server {
     }
 }
 ```
+
+
+### 3 解决index.html缓存问题
+
+- 浏览器解决缓存问题，在html文件中加入meta标签
+
+```html
+<meta http-equiv="Expires" content="0">
+ <!-- 旧协议 -->
+
+<meta http-equiv="Pragma" content="no-cache">
+ <!-- 旧协议 -->
+
+<meta http-equiv="Cache-control" content="no-cache">
+<!-- 目前主流 -->
+
+<meta http-equiv="Cache" content="no-cache">
+ <!-- 浏览器的缓存解决 前端方案很不靠谱,会有服务端缓存问题 -->
+```
+
+- 服务端解决缓存问题，在nginx配置文件中加入
+
+add_header Cache-Control "no-cache, no-store";
+
+```nginx
+    server {
+        listen       8002;
+        server_name  localhost;
+        location / {
+            root   C:/Users/xuruixi/Desktop/npm发布包/xrx-monorepo/packages/web/dist;
+            index  index.html index.htm;
+            add_header Cache-Control "no-cache, no-store";
+            try_files $uri $uri/ /index.html;
+        }
+
+    }
+```

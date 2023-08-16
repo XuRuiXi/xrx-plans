@@ -426,3 +426,17 @@ pm发布包\xrx-monorepo\packages\jqweb" failed (123: The filename, directory na
 2023/08/15 16:32:09 [error] 24544#6192: *186 CreateFile() "C:/Users/xuruixi/Desktop/npm发布包/xrx-monorepo/packages/web/dist/table" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /table HTTP/1.1", host: "localhost:8002"
 2023/08/15 16:32:11 [error] 24544#6192: *186 CreateFile() "C:/Users/xuruixi/Desktop/npm发布包/xrx-monorepo/packages/web/dist/table" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /table HTTP/1.1", host: "localhost:8002"
 2023/08/15 16:33:09 [notice] 17756#21308: signal process started
+2023/08/15 17:24:09 [notice] 14636#18980: signal process started
+2023/08/15 17:24:37 [notice] 25336#5612: signal process started
+2023/08/15 17:25:05 [notice] 21848#11228: signal process started
+2023/08/15 17:25:13 [notice] 3476#6732: signal process started
+2023/08/15 17:25:27 [notice] 25860#17076: signal process started
+2023/08/15 17:25:29 [notice] 26180#3680: signal process started
+2023/08/15 17:25:38 [error] 24832#17560: *217 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /upstream/%E9%A3%8E%E6%99%AF.png HTTP/1.1", upstream: "http://[::1]:8001/assets/%E9%A3%8E%E6%99%AF.png", host: "localhost:8888", referrer: "http://localhost:8888/"
+2023/08/15 17:26:35 [notice] 4828#3352: signal process started
+2023/08/15 17:26:44 [notice] 20700#24372: signal process started
+2023/08/15 17:27:23 [notice] 23732#18556: signal process started
+2023/08/15 17:27:46 [notice] 10104#25748: signal process started
+2023/08/15 17:29:26 [notice] 18524#24068: signal process started
+2023/08/15 17:29:50 [notice] 25756#21496: signal process started
+2023/08/15 17:33:04 [notice] 7344#9052: signal process started
